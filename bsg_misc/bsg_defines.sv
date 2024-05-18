@@ -26,7 +26,7 @@
 `define BSG_ABSTRACT_MODULE(fn) \
     /*verilator lint_off DECLFILENAME*/ \
     /*verilator lint_off PINMISSING*/ \
-    module fn``__abstract(); if (0) fn not_used(); endmodule \
+    //module fn``__abstract(); if (0) fn not_used(); endmodule \
     /*verilator lint_on PINMISSING*/ \
     /*verilator lint_on DECLFILENAME*/
 
